@@ -1,0 +1,29 @@
+#search-button {
+  border-top: #9ca3af 2px solid;
+  border-right: #9ca3af 2px solid;
+  border-bottom: #9ca3af 2px solid;
+  border-radius: 0 10px 10px 0;
+
+  height: 2.5rem;
+  width: 10%;
+  background-color: white;
+
+  font-size: 1rem;
+}
+
+#search-input {
+  border: #9ca3af 2px solid;
+  border-radius: 10px 0 0 10px;
+
+  width: 60%;
+  height: 2.5rem;
+}
+
+.truncate-lines-4 {
+  /* Number of lines to show before truncating */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  /* Number of lines to show before truncating */
+}
