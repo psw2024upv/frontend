@@ -27,3 +27,27 @@
   -webkit-line-clamp: 4;
   /* Number of lines to show before truncating */
 }
+
+.footer {
+  background-color: #DDE5B6;
+  padding: 3rem;
+}
+
+.footer-section-title {
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+
+.footer-link-wrapper {
+  margin: 1rem;
+}
+
+.footer-left {
+  margin-right: 2rem;
+}
+
+.footer-right {
+  margin-left: 2rem;
+}
+
+
