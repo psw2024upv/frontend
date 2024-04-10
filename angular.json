@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/frontend",
-            "index": "src/index.html",
+            "index": "src/landing_page/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -30,9 +30,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/styles.scss",
+              "src/assets/stylesheets/commonCSS.css",
+              "src/assets/stylesheets/tailwind.css",
+              "src/landing_page/indexCSS.css",
+              "src/catalog_view/catalogCSS.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/scripts/indexScript.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -95,12 +102,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/styles.scss",
+              "src/assets/stylesheets/commonCSS.css",
+              "src/assets/stylesheets/tailwind.css",
+              "src/landing_page/indexCSS.css",
+              "src/catalog_view/catalogCSS.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
