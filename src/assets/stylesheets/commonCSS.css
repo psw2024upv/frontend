@@ -1,0 +1,79 @@
+#search-button {
+    border-top: #9ca3af 2px solid;
+    border-right: #9ca3af 2px solid;
+    border-bottom: #9ca3af 2px solid;
+    border-radius: 0 10px 10px 0;
+  
+    height: 2.5rem;
+    width: 10%;
+    background-color: white;
+  
+    font-size: 1rem;
+  }
+  
+  #search-input {
+    border: #9ca3af 2px solid;
+    border-radius: 10px 0 0 10px;
+    width: 60%;
+    height: 2.5rem;
+  }
+
+  #registerandlogin-input {
+    border: #9ca3af 2px solid;
+    border-radius: 8px 8px 8px 8px;
+    width: 70%;
+    height: 2rem;
+    margin-left:1rem;
+    vertical-align: middle;
+  }
+
+  #registerandlogin-button {
+    border: #9ca3af 2px solid;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2rem;
+    background-color: #dde5b6;
+    font-size: 1rem;
+  }
+
+  #rectangle-bg {
+    background-color: #adc178;
+    border: #9ca3af 2px solid;
+    /* padding: 8px; */
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    
+  }
+  
+  .truncate-lines-4 {
+    /* Number of lines to show before truncating */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    /* Number of lines to show before truncating */
+  }
+  
+  .footer {
+    background-color: #DDE5B6;
+    padding: 3rem;
+  }
+  
+  .footer-section-title {
+    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+  }
+  
+  .footer-link-wrapper {
+    margin: 1rem;
+  }
+  
+  .footer-left {
+    margin-right: 2rem;
+  }
+  
+  .footer-right {
+    margin-left: 2rem;
+  }
+  
+  
+  
