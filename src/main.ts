@@ -6,5 +6,5 @@ import { appConfigL } from './app/login/log-in.config';
 import { routes } from './app/app.routes';
 import { routesL } from './app/login/log-in.routes';
 
-bootstrapApplication(AppComponent, appConfig)
+bootstrapApplication(LogInComponent, appConfigL)
   .catch((err) => console.error(err));
