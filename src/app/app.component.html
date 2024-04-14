@@ -58,7 +58,8 @@
             <p style="font-family: Arial, Helvetica, sans-serif">Contraseña</p>
             <input
               id="registerandlogin-input"
-              type="text"
+              type="password"
+              title="Debe contener mínimo una mayúscula, un número y un carácter especial"
               formControlName="contraseña"
               required
             />
@@ -74,9 +75,12 @@
             id="registerandlogin-button"
             class="text-black"
             aria-setsize="5"
+            (click)="mailIsOk()"
+            (click)="passwordIsOk()"
           >
             <div class="flex items-center text-center p-2">Registrarse</div>
           </button>
+          <div>{{result}} {{result1}}</div>
           <p
             style="font-family: Arial, Helvetica, sans-serif; font-weight: 100"
           >
