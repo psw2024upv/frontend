@@ -109,7 +109,8 @@
             ],
             "scripts": [
               "src/assets/scripts/indexScript.ts",
-              "src/assets/scripts/listingsLoader.ts"
+              "src/assets/scripts/listingsLoader.ts",
+              "src/catalog_view/catalogFiltersJS.ts"
             ]
           }
         }

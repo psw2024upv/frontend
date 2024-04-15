@@ -50,4 +50,31 @@
   margin-left: 2rem;
 }
 
+.listing-add-to-list {
+  background-color: white;
+  border: #ADC178 2px solid;
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+}
+
+.listing-add-to-cart {
+  background-color: #ADC178;
+  border-radius: 10px;
+  padding: 0.35rem 0.75rem;
+}
+
+.button-svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.green-button {
+  background-color: #ACC078;
+  color: white;
+  width: 4rem;
+  height: 2rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
 
