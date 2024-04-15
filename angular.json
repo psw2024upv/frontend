@@ -39,7 +39,7 @@
               "src/assets/stylesheets/commonCSS.css",
               "src/assets/stylesheets/tailwind.css",
               "src/landing_page/indexCSS.css",
-              "src/catalog_view/catalogCSS.css",
+              "src/catalog_view/catalogCSS.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
