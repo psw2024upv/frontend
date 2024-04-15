@@ -27,7 +27,11 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/scripts/indexScript.js",
+              "src/assets/scripts/listingsLoader.js",
+              "src/catalog_view/catalogFiltersJS.js",
+              "src/landing_page/landingPageJS.js"
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
@@ -35,7 +39,7 @@
               "src/assets/stylesheets/commonCSS.css",
               "src/assets/stylesheets/tailwind.css",
               "src/landing_page/indexCSS.css",
-              "src/catalog_view/catalogCSS.css"
+              "src/catalog_view/catalogCSS.css",
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -109,7 +113,9 @@
             ],
             "scripts": [
               "src/assets/scripts/indexScript.ts",
-              "src/assets/scripts/listingsLoader.ts"
+              "src/assets/scripts/listingsLoader.ts",
+              "src/catalog_view/catalogFiltersJS.ts",
+              "src/landing_page/landingPageJS.ts"
             ]
           }
         }
